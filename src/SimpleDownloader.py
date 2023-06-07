@@ -1,8 +1,13 @@
 from validators import url as valid
 from urllib.parse import urlparse
+from SimpleUpdater import SimpleUpdater
 
 import window
 import youtube
+
+CURRENT_VERSION = '0.0.1'
+VERSION_URL = 'https://raw.githubusercontent.com/mvishok/SimpleDownloader/main/ver.txt'
+SimpleUpdater.checkForUpdates(CURRENT_VERSION, VERSION_URL)
 
 window.hideWindow()
 window.add_hotkey('ctrl+f1', window.showWindow)
