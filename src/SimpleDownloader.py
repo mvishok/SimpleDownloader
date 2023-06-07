@@ -5,7 +5,7 @@ from SimpleUpdater import SimpleUpdater
 import window
 import youtube
 
-CURRENT_VERSION = '0.0.1'
+CURRENT_VERSION = '1.0.0'
 VERSION_URL = 'https://raw.githubusercontent.com/mvishok/SimpleDownloader/main/ver.txt'
 SimpleUpdater.checkForUpdates(CURRENT_VERSION, VERSION_URL)
 
