@@ -53,7 +53,7 @@ Run
 
 ## Acknowledgements
 
- - [SimpleUpdater](https://https://pypi.org/project/simpleupdater/)
+ - [SimpleUpdater](https://pypi.org/project/simpleupdater/)
  - [PyTube](https://pypi.org/project/pytube/)
  - [Nuitka](https://pypi.org/project/Nuitka/)
 
